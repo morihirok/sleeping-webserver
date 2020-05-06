@@ -97,5 +97,6 @@ func listenAndServe(port string) {
 }
 
 func main() {
+	fmt.Println("Server starts at localhost:5454")
 	listenAndServe(":5454")
 }
